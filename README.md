@@ -11,6 +11,7 @@ This repository contains my solutions and projects from Harvard's CS50x course.
 
 ## Submissions
 * Week 0 - Ping Pong Game (Scratch)
+* Week 1 - Hello, It's me (C), Mario-more (C), Cash (C), Credit (C)
 
 ---
 
