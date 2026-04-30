@@ -14,4 +14,4 @@
   - [Problem-Statement](https://cs50.harvard.edu/x/psets/2/caesar/)
 * Substitution 
   - Encrypt messages using a substitution cipher which is a key string of length 26 with unique alphabetical characters in any order, implemented in C.
-  -[Problem-Statement](https://cs50.harvard.edu/x/psets/2/substitution/)
+  - [Problem-Statement](https://cs50.harvard.edu/x/psets/2/substitution/)
