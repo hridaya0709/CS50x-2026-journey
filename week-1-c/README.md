@@ -3,7 +3,7 @@
 ---
 
 ## Assignments:
-* Hello, It's me - Simple hello world program in C [Problem-Statement](https://cs50.harvard.edu/x/psets/1/me/)
-* Mario (more) - Printing a pyramid pattern in C [Problem-Statement](https://cs50.harvard.edu/x/psets/1/mario/more/)
-* Cash - Prints the minimum number of coins needed to make the given amount of change in cents, implemented in C [Problem-Statement](https://cs50.harvard.edu/x/psets/1/cash/)
-* Credit - Validate and identify the credit card type, implemented in C [Problem-Statement](https://cs50.harvard.edu/x/psets/1/credit/)
+*  [Hello, It's me](https://cs50.harvard.edu/x/psets/1/me/) - Simple hello world program in C
+*  [Mario (more)](https://cs50.harvard.edu/x/psets/1/mario/more/) - Printing a pyramid pattern in C
+*  [Cash](https://cs50.harvard.edu/x/psets/1/cash/) - Prints the minimum number of coins needed to make the given amount of change in cents, implemented in C
+*  [Credit](https://cs50.harvard.edu/x/psets/1/credit/) - Validate and identify the credit card type, implemented in C
