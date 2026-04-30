@@ -6,6 +6,7 @@ This repository contains my solutions and projects from Harvard's CS50x course.
 ## Weeks
 * Week 0 - Scratch 🎮
 * Week 1 - C
+* Week 2 - Arrays
 
 --- 
 
