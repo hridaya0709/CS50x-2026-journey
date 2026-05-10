@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: This program ran almost similar to the sort3 program in both random and reversed scenarios (which are unsorted data) that will take O(n2) time complexity, but performed well in sorted scenario (which is the best case scenario) among all the three sorting programs and since we have a base condition in bubble sort which is when there are no swaps done in the first iteration, we ultimately terminate the sorting process which results in a time complexity of omega n whereas in selection sort and merge sort this is not the case, we would still iterate through the list and try to sort the elements. Hence, I deduced that sort1 uses Bubble sort algorithm.
+
+sort2 uses: Merge Sort
+
+How do you know?: All the data sets were executed relatively faster for this program than the other two in both random and reversed scenarios, which points that this is program is taking very less time to execute, I also observed that this program took a bit more time than sort1 to sort elements in the best case sceanrio which is the sorted data and since I already know that the time complexity of Merge sort is n log n irrespective of the scenario, I deduced that sort2 uses Merge Sort.
+
+sort3 uses: Selection Sort
+
+How do you know?: Same as for the explanation of sort1, sort3 program ran comparatively same like sort1 in both random and reversed scenarios and that is expected because of the O(n2) time complexity for each of these algorithms but what contributed to my decision is the best case scenario which is the sorting on sorted data, while sort1 algorithm produced a less execution time, this program took longer and also had the similar execution time to that of other scenarios like random and reversed. Since, selection sort will execute in O(n2) time complexity irresepective of the scenario (like worst or best), I dedcued that this sort3 program uses Selection sort to sort the elements.
