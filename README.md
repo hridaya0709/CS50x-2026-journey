@@ -21,3 +21,7 @@ This repository contains my solutions and projects from Harvard's CS50x course.
 
 ## Goal
 To build strong computer science fundamentals and improve problem-solving skills.
+
+---
+
+## [Course](https://cs50.harvard.edu/x/) details here :)
