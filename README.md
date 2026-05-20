@@ -8,6 +8,7 @@ This repository contains my solutions and projects from Harvard's CS50x course.
 * Week 1 - C
 * Week 2 - Arrays
 * Week 3 - Algorithms
+* Week 4 - Memory
 
 --- 
 
@@ -16,6 +17,7 @@ This repository contains my solutions and projects from Harvard's CS50x course.
 * [Week 1](https://cs50.harvard.edu/x/psets/1/) - Hello, It's me (C), Mario-more (C), Cash (C), Credit (C)
 * [Week 2](https://cs50.harvard.edu/x/psets/2/) - Scrabble (C), Readability (C), Caesar (C), Substitution (C)
 * [Week 3](https://cs50.harvard.edu/x/psets/3/) - Sort (C), Plurality (C), Runoff (C), Tideman (C)
+* [Week 4](https://cs50.harvard.edu/x/psets/4/)  - Volume (C), Filter-less (C), Filter-more (C), Recover (C)
 
 ---
 
