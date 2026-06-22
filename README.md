@@ -10,6 +10,7 @@ This repository contains my solutions and projects from Harvard's CS50x course.
 * Week 3 - Algorithms
 * Week 4 - Memory
 * Week 5 - Data Structures
+* Week 6 - Python
 
 --- 
 
@@ -20,6 +21,7 @@ This repository contains my solutions and projects from Harvard's CS50x course.
 * [Week 3](https://cs50.harvard.edu/x/psets/3/) - Sort (C), Plurality (C), Runoff (C), Tideman (C)
 * [Week 4](https://cs50.harvard.edu/x/psets/4/)  - Volume (C), Filter-less (C), Filter-more (C), Recover (C)
 * [Week 5](https://cs50.harvard.edu/x/psets/5/)  - Inheritance (C), Speller (C)
+* [Week 6](https://cs50.harvard.edu/x/psets/6/)  - Hello (Python), Mario-more (Python), Cash (Python), Credit (Python), Readability (Python), DNA (Python)
 
 ---
 
