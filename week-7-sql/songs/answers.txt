@@ -1,0 +1,7 @@
+I would categorize the moods depending on the type of songs that listener listens to most of the time and
+what type of songs he prefers, I will check his whole playlist not just for the top 5 artists and also collect
+a survey from the listener such as "This song vs That song" kind of questions of the songs he listens to the most.
+I would also consider adding a replay count on a particular song to make use of this to finalize the aura.
+
+This might not be exact representation of the listener because there might be more specific ways to find tha aura
+of the user, I have thought about all the possible ways though.
