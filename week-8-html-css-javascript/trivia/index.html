@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            function checkQ1(val) {
+                if(val != "2") {
+                    document.querySelector("#mc").innerHTML = "Incorrect";
+                    document.querySelector("#b" + val).style.backgroundColor = "red";
+                }
+                else {
+                    document.querySelector("#mc").innerHTML = "Correct!";
+                    document.querySelector("#b" + val).style.backgroundColor = "green";
+                }
+            }
+
+            function checkQ2() {
+                let val = document.querySelector("#youngest").value.trim().toLowerCase();
+                if(val === "jeon jungkook" ||
+                    val === "jeon jung kook" ||
+                    val === "jk" ||
+                    val === "kookie")
+                {
+                    document.querySelector("#tx").innerHTML = "Correct!";
+                    document.querySelector("#youngest").style.color = "green";
+                }
+                else {
+                    document.querySelector("#tx").innerHTML = "Incorrect";
+                    document.querySelector("#youngest").style.color = "red";
+                }
+            }
+
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                 <h3>Which of the following is a BTS song?</h3><p id="mc"></p>
+                 <button id="b1" onClick="checkQ1('1')">Aju Nice</button>
+                 <button id="b2" onClick="checkQ1('2')">Blood, Sweat and Tears</button>
+                 <button id="b3" onClick="checkQ1('3')">Alcohol-Free</button>
+                 <button id="b4" onClick="checkQ1('4')">Forever Young</button>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                 <h3>Who is the youngest in the group BTS?</h3><p id="tx"></p>
+                 <input type="text" id="youngest">
+                 <button onClick="checkQ2()">Check Answer</button>
+            </div>
+        </div>
+    </body>
+</html>
