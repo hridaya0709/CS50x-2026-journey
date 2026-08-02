@@ -1,0 +1,715 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># CS50x-2026-journey \uD83D\uDE80\r\nThis repository contains my solutions and projects from Harvard's CS50x course.\r\n\r\n---\r\n\r\n## Weeks\r\n* Week 0 - Scratch \uD83C\uDFAE\r\n* Week 1 - C\r\n* Week 2 - Arrays\r\n* Week 3 - Algorithms\r\n* Week 4 - Memory\r\n* Week 5 - Data Structures\r\n* Week 6 - Python\r\n\r\n--- \r\n\r\n## Submissions\r\n* [Week 0](https://cs50.harvard.edu/x/psets/0/) - Ping Pong Game (Scratch)\r\n* [Week 1](https://cs50.harvard.edu/x/psets/1/) - Hello, It's me (C), Mario-more (C), Cash (C), Credit (C)\r\n* [Week 2](https://cs50.harvard.edu/x/psets/2/) - Scrabble (C), Readability (C), Caesar (C), Substitution (C)\r\n* [Week 3](https://cs50.harvard.edu/x/psets/3/) - Sort (C), Plurality (C), Runoff (C), Tideman (C)\r\n* [Week 4](https://cs50.harvard.edu/x/psets/4/)  - Volume (C), Filter-less (C), Filter-more (C), Recover (C)\r\n* [Week 5](https://cs50.harvard.edu/x/psets/5/)  - Inheritance (C), Speller (C)\r\n* [Week 6](https://cs50.harvard.edu/x/psets/6/)  - Hello (Python), Mario-more (Python), Cash (Python), Credit (Python), Readability (Python), DNA (Python)\r\n\r\n---\r\n\r\n## Goal\r\nTo build strong computer science fundamentals and improve problem-solving skills.\r\n\r\n---\r\n\r\n## [Course](https://cs50.harvard.edu/x/) details here :)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision 3f1e384dacf6fc5d96eaa2b4d3f66664484a5704)
++++ b/README.md	(date 1782753802860)
+@@ -11,6 +11,10 @@
+ * Week 4 - Memory
+ * Week 5 - Data Structures
+ * Week 6 - Python
++* Week 7 - SQL
++* Week 8 - HTML, CSS, JavaScript
++* Week 9 - Flask
++* Week 10 - Final Project
+ 
+ --- 
+ 
+@@ -22,6 +26,7 @@
+ * [Week 4](https://cs50.harvard.edu/x/psets/4/)  - Volume (C), Filter-less (C), Filter-more (C), Recover (C)
+ * [Week 5](https://cs50.harvard.edu/x/psets/5/)  - Inheritance (C), Speller (C)
+ * [Week 6](https://cs50.harvard.edu/x/psets/6/)  - Hello (Python), Mario-more (Python), Cash (Python), Credit (Python), Readability (Python), DNA (Python)
++* [Week 7](https://cs50.harvard.edu/x/psets/7/)  - Songs (SQL), Movies (SQL), Fiftyville (SQL)
+ 
+ ---
+ 
+Index: week-6-python/README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Week 5 - Data Structures\r\n\r\n---\r\n\r\n## Assignments:\r\n* [Hello](https://cs50.harvard.edu/x/psets/6/hello/)\r\n    - Implement a hello world program in Python.\r\n* [Mario (more)](https://cs50.harvard.edu/x/psets/6/mario/more/)\r\n    - Implement a program that prints out a pyramid of a specified height, implemented in Python.\r\n* [Cash](https://cs50.harvard.edu/x/psets/6/cash/)\r\n    - Implement a program that calculates the minimum number of coins needed to make change for a given amount of money, implemented in Python.\r\n* [Credit](https://cs50.harvard.edu/x/psets/6/credit/)\r\n    - Implement a program that validates credit card numbers and identifies the type of card, implemented in Python.\r\n* [Readability](https://cs50.harvard.edu/x/psets/6/readability/)\r\n    - Implement a program that calculates the approximate grade level needed to comprehend a given text, implemented in Python.\r\n* [DNA](https://cs50.harvard.edu/x/psets/6/dna/)\r\n    - Implement a program that identifies a person based on their DNA sequence, implemented in Python.\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-6-python/README.md b/week-6-python/README.md
+--- a/week-6-python/README.md	(revision 3f1e384dacf6fc5d96eaa2b4d3f66664484a5704)
++++ b/week-6-python/README.md	(date 1782752171322)
+@@ -1,4 +1,4 @@
+-# Week 5 - Data Structures
++# Week 6 - Python
+ 
+ ---
+ 
+Index: week-7-sql/README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/README.md b/week-7-sql/README.md
+new file mode 100644
+--- /dev/null	(date 1782752476437)
++++ b/week-7-sql/README.md	(date 1782752476437)
+@@ -0,0 +1,11 @@
++# Week 7 - SQL
++
++---
++
++## Assignments:
++* [Songs](https://cs50.harvard.edu/x/psets/7/songs/)
++    - Write SQL queries to answer questions about a database of the 100 most-streamed songs on Spotify in 2018.
++* [Movies](https://cs50.harvard.edu/x/psets/7/movies/)
++    - Write SQL queries to answer questions about a database of movies from IMDB.
++* [Fiftyville](https://cs50.harvard.edu/x/psets/7/fiftyville/)
++    - Find the thief who stole CS50 duck and escaped to another city with the help of an accomplice, using SQL queries find out who the thief is, which city he escaped to and his accomplice.
+Index: week-7-sql/songs/5.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/songs/5.sql b/week-7-sql/songs/5.sql
+new file mode 100644
+--- /dev/null	(date 1782751887422)
++++ b/week-7-sql/songs/5.sql	(date 1782751887422)
+@@ -0,0 +1,4 @@
++-- write a SQL query that returns the average energy of all the songs.
++-- Your query should output a table with a single column and a single row containing the average energy.
++
++SELECT avg(energy) FROM songs;
+Index: week-7-sql/songs/8.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/songs/8.sql b/week-7-sql/songs/8.sql
+new file mode 100644
+--- /dev/null	(date 1782751887449)
++++ b/week-7-sql/songs/8.sql	(date 1782751887449)
+@@ -0,0 +1,5 @@
++-- write a SQL query that lists the names of the songs that feature other artists.
++-- Songs that feature other artists will include “feat.” in the name of the song.
++-- Your query should output a table with a single column for the name of each song.
++
++SELECT name FROM songs WHERE name like '%feat.%';
+Index: week-7-sql/songs/3.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/songs/3.sql b/week-7-sql/songs/3.sql
+new file mode 100644
+--- /dev/null	(date 1782751887405)
++++ b/week-7-sql/songs/3.sql	(date 1782751887405)
+@@ -0,0 +1,4 @@
++-- write a SQL query to list the names of the top 5 longest songs, in descending order of length.
++-- Your query should output a table with a single column for the name of each song.
++
++SELECT name FROM songs ORDER BY duration_ms DESC LIMIT 5;
+Index: week-7-sql/songs/2.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/songs/2.sql b/week-7-sql/songs/2.sql
+new file mode 100644
+--- /dev/null	(date 1782751887396)
++++ b/week-7-sql/songs/2.sql	(date 1782751887396)
+@@ -0,0 +1,4 @@
++-- write a SQL query to list the names of all songs in increasing order of tempo.
++-- Your query should output a table with a single column for the name of each song.
++
++SELECT name FROM songs ORDER BY tempo;
+Index: week-7-sql/songs/1.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/songs/1.sql b/week-7-sql/songs/1.sql
+new file mode 100644
+--- /dev/null	(date 1782751887383)
++++ b/week-7-sql/songs/1.sql	(date 1782751887383)
+@@ -0,0 +1,4 @@
++-- write a SQL query to list the names of all songs in the database.
++-- Your query should output a table with a single column for the name of each song.
++
++SELECT name FROM songs;
+Index: week-7-sql/songs/4.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/songs/4.sql b/week-7-sql/songs/4.sql
+new file mode 100644
+--- /dev/null	(date 1782751887413)
++++ b/week-7-sql/songs/4.sql	(date 1782751887413)
+@@ -0,0 +1,4 @@
++-- write a SQL query that lists the names of any songs that have danceability, energy, and valence greater than 0.75.
++-- Your query should output a table with a single column for the name of each song.
++
++SELECT name FROM songs WHERE danceability > 0.75 AND energy > 0.75 AND valence > 0.75;
+Index: week-7-sql/songs/7.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/songs/7.sql b/week-7-sql/songs/7.sql
+new file mode 100644
+--- /dev/null	(date 1782751887441)
++++ b/week-7-sql/songs/7.sql	(date 1782751887441)
+@@ -0,0 +1,7 @@
++-- write a SQL query that returns the average energy of songs that are by Drake.
++-- Your query should output a table with a single column and a single row containing the average energy.
++-- You should not make any assumptions about what Drake’s artist_id is.
++
++SELECT avg(energy) FROM songs WHERE artist_id = (
++    SELECT id FROM artists WHERE name = 'Drake'
++);
+Index: week-7-sql/songs/6.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/songs/6.sql b/week-7-sql/songs/6.sql
+new file mode 100644
+--- /dev/null	(date 1782751887431)
++++ b/week-7-sql/songs/6.sql	(date 1782751887431)
+@@ -0,0 +1,7 @@
++-- write a SQL query that lists the names of songs that are by Post Malone.
++-- Your query should output a table with a single column for the name of each song.
++-- You should not make any assumptions about what Post Malone’s artist_id is.
++
++SELECT name FROM songs WHERE artist_id = (
++    SELECT id FROM artists WHERE name = 'Post Malone'
++);
+Index: week-7-sql/movies/9.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/movies/9.sql b/week-7-sql/movies/9.sql
+new file mode 100644
+--- /dev/null	(date 1782752093388)
++++ b/week-7-sql/movies/9.sql	(date 1782752093388)
+@@ -0,0 +1,7 @@
++-- 9. Names of all people who starred in a movie released in 2004, ordered by birth year
++
++SELECT DISTINCT people.id, people.name FROM movies, people, stars WHERE
++stars.movie_id = movies.id AND
++stars.person_id = people.id AND
++movies.year = '2004'
++ORDER BY people.birth;
+Index: week-7-sql/songs/answers.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/songs/answers.txt b/week-7-sql/songs/answers.txt
+new file mode 100644
+--- /dev/null	(date 1782751887456)
++++ b/week-7-sql/songs/answers.txt	(date 1782751887456)
+@@ -0,0 +1,7 @@
++I would categorize the moods depending on the type of songs that listener listens to most of the time and
++what type of songs he prefers, I will check his whole playlist not just for the top 5 artists and also collect
++a survey from the listener such as "This song vs That song" kind of questions of the songs he listens to the most.
++I would also consider adding a replay count on a particular song to make use of this to finalize the aura.
++
++This might not be exact representation of the listener because there might be more specific ways to find tha aura
++of the user, I have thought about all the possible ways though.
+Index: week-7-sql/movies/2.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/movies/2.sql b/week-7-sql/movies/2.sql
+new file mode 100644
+--- /dev/null	(date 1782752093323)
++++ b/week-7-sql/movies/2.sql	(date 1782752093323)
+@@ -0,0 +1,3 @@
++-- 2. Birth year of Emma Stone
++
++SELECT birth FROM people WHERE name = 'Emma Stone';
+Index: week-7-sql/movies/13.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/movies/13.sql b/week-7-sql/movies/13.sql
+new file mode 100644
+--- /dev/null	(date 1782752093313)
++++ b/week-7-sql/movies/13.sql	(date 1782752093313)
+@@ -0,0 +1,12 @@
++-- 13. Names of all people who starred in a movie in which Kevin Bacon also starred
++
++SELECT name FROM stars, people, movies WHERE
++stars.person_id = people.id AND
++stars.movie_id = movies.id AND
++people.name != 'Kevin Bacon' AND
++movies.id in (
++    SELECT movies.id FROM movies, stars, people WHERE
++    stars.person_id = people.id AND
++    stars.movie_id = movies.id AND
++    people.name = 'Kevin Bacon' and people.birth = '1958'
++);
+Index: week-7-sql/movies/10.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/movies/10.sql b/week-7-sql/movies/10.sql
+new file mode 100644
+--- /dev/null	(date 1782752093284)
++++ b/week-7-sql/movies/10.sql	(date 1782752093284)
+@@ -0,0 +1,7 @@
++-- 10. Names of all directors who have directed a movie that got a rating of at least 9.0
++
++SELECT people.name FROM movies, ratings, directors, people WHERE
++movies.id = ratings.movie_id AND
++movies.id = directors.movie_id AND
++people.id = directors.person_id AND
++ratings.rating >= 9.0;
+Index: week-7-sql/movies/11.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/movies/11.sql b/week-7-sql/movies/11.sql
+new file mode 100644
+--- /dev/null	(date 1782752093295)
++++ b/week-7-sql/movies/11.sql	(date 1782752093295)
+@@ -0,0 +1,9 @@
++-- 11. Titles of the five highest rated movies (in order) that Chadwick Boseman starred in, starting with the highest rated
++
++SELECT movies.title FROM movies, stars, people, ratings WHERE
++stars.movie_id = movies.id AND
++stars.person_id = people.id AND
++ratings.movie_id = movies.id AND
++people.name = 'Chadwick Boseman'
++ORDER BY ratings.rating DESC
++LIMIT 5;
+Index: week-7-sql/movies/7.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/movies/7.sql b/week-7-sql/movies/7.sql
+new file mode 100644
+--- /dev/null	(date 1782752093370)
++++ b/week-7-sql/movies/7.sql	(date 1782752093370)
+@@ -0,0 +1,5 @@
++-- 7. All movies and ratings from 2010, in decreasing order by rating (alphabetical for those with same rating)
++
++SELECT movies.title, ratings.rating FROM movies, ratings WHERE
++movies.id = ratings.movie_id AND movies.year = '2010'
++ORDER BY rating DESC, title;
+Index: week-7-sql/movies/4.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/movies/4.sql b/week-7-sql/movies/4.sql
+new file mode 100644
+--- /dev/null	(date 1782752093341)
++++ b/week-7-sql/movies/4.sql	(date 1782752093341)
+@@ -0,0 +1,4 @@
++-- 4. Number of movies with a 10.0 rating
++
++SELECT COUNT(id) FROM movies, ratings WHERE
++movies.id = ratings.movie_id AND rating = 10.0;
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"515afa27-b556-43c8-8c71-c97783c4735e\" name=\"Changes\" comment=\"week-1-commits\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/README.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/README.md\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"CopilotPersistence\">\r\n    <persistenceIdMap>\r\n      <entry key=\"_C:/Users/hrida/CS50x/CS50x-2026-journey\" value=\"3CiqyonGPvjHOHXZA0j3L6v8bD9\" />\r\n    </persistenceIdMap>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 4\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"3CiqyonGPvjHOHXZA0j3L6v8bD9\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;week-2-arrays&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/hrida/CS50x/CS50x-2026-journey/week-2-arrays&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\hrida\\CS50x\\CS50x-2026-journey\\week-2-arrays\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"515afa27-b556-43c8-8c71-c97783c4735e\" name=\"Changes\" comment=\"\" />\r\n      <created>1776878994625</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1776878994625</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"week-0-commits\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1776880057000</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1776880057000</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"week-1-commits\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1776964890239</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1776964890239</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"week-0-commits\" />\r\n    <MESSAGE value=\"week-1-commits\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"week-1-commits\" />\r\n  </component>\r\n  <component name=\"github-copilot-workspace\">\r\n    <instructionFileLocations>\r\n      <option value=\".github/instructions\" />\r\n    </instructionFileLocations>\r\n    <promptFileLocations>\r\n      <option value=\".github/prompts\" />\r\n    </promptFileLocations>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 3f1e384dacf6fc5d96eaa2b4d3f66664484a5704)
++++ b/.idea/workspace.xml	(date 1782752252085)
+@@ -7,6 +7,7 @@
+     <list default="true" id="515afa27-b556-43c8-8c71-c97783c4735e" name="Changes" comment="week-1-commits">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/week-6-python/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/week-6-python/README.md" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -33,22 +34,23 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;week-2-arrays&quot;,
+-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hrida/CS50x/CS50x-2026-journey/week-2-arrays&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "git-widget-placeholder": "week-6-python",
++    "ignore.virus.scanning.warn.message": "true",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "C:/Users/hrida/CS50x/CS50x-2026-journey/week-7-sql",
++    "project.structure.last.edited": "SDKs",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.2",
++    "settings.editor.selected.configurable": "preferences.pluginManager"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\hrida\CS50x\CS50x-2026-journey\week-7-sql" />
+       <recent name="C:\Users\hrida\CS50x\CS50x-2026-journey\week-2-arrays" />
+     </key>
+   </component>
+Index: week-7-sql/movies/5.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/movies/5.sql b/week-7-sql/movies/5.sql
+new file mode 100644
+--- /dev/null	(date 1782752093352)
++++ b/week-7-sql/movies/5.sql	(date 1782752093352)
+@@ -0,0 +1,4 @@
++-- 5. Titles and years of all Harry Potter movies, in chronological order
++--(title beginning with "Harry Potter and the ...")
++
++SELECT title, year FROM movies WHERE title like 'Harry Potter and the%' ORDER BY year;
+Index: week-7-sql/movies/8.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/movies/8.sql b/week-7-sql/movies/8.sql
+new file mode 100644
+--- /dev/null	(date 1782752093379)
++++ b/week-7-sql/movies/8.sql	(date 1782752093379)
+@@ -0,0 +1,6 @@
++-- 8. Names of people who starred in Toy Story
++
++SELECT people.name FROM people, movies, stars WHERE
++stars.movie_id = movies.id AND
++stars.person_id = people.id AND
++movies.title = 'Toy Story';
+Index: week-7-sql/movies/3.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/movies/3.sql b/week-7-sql/movies/3.sql
+new file mode 100644
+--- /dev/null	(date 1782752093332)
++++ b/week-7-sql/movies/3.sql	(date 1782752093332)
+@@ -0,0 +1,3 @@
++-- 3. Titles of all movies since 2018, in alphabetical order
++
++SELECT title FROM movies WHERE year >= 2018 ORDER BY title;
+Index: week-7-sql/movies/12.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/movies/12.sql b/week-7-sql/movies/12.sql
+new file mode 100644
+--- /dev/null	(date 1782752093303)
++++ b/week-7-sql/movies/12.sql	(date 1782752093303)
+@@ -0,0 +1,37 @@
++-- 12. Titles of all of movies in which both Jennifer Lawrence and Bradley Cooper starred
++
++SELECT DISTINCT movies.title FROM movies, stars, people WHERE
++    stars.person_id = people.id AND
++    stars.movie_id = movies.id AND
++    people.name IN ('Jennifer Lawrence', 'Bradley Cooper')
++    GROUP BY movies.id HAVING COUNT(*) = 2;
++
++-- SELECT movies.title FROM movies, stars WHERE
++-- stars.movie_id = movies.id AND
++-- movies.id IN (
++--     SELECT movies.id FROM movies, stars, people WHERE
++--     stars.person_id = people.id AND
++--     stars.movie_id = movies.id AND
++--     people.name IN ('Jennifer Lawrence', 'Bradley Cooper')
++--     GROUP BY movies.id HAVING COUNT(*) = 2
++-- );
++
++
++
++-- SELECT movies.title FROM
++-- movies JOIN stars ON stars.movie_id = movies.id
++-- people JOIN stars ON stars.person_id = people.id
++-- WHERE movies.id IN (
++--     SELECT stars.movie_id FROM stars WHERE stars.person_id IN (
++--         SELECT id FROM people WHERE name IN ('Jennifer Lawrence', 'Bradley Cooper')
++--     ));
++
++-- SELECT movies.title FROM movies, people, stars WHERE
++-- stars.movie_id = movies.id AND
++-- stars.person_id = people.id AND
++-- stars.person_id in (SELECT people.id FROM people WHERE name IN ('Jennifer Lawrence', 'Bradley Cooper'));
++
++-- SELECT movies.title FROM movies, people, stars WHERE
++-- stars.movie_id = movies.id AND
++-- stars.person_id = people.id AND
++-- people.name IN ('Jennifer Lawrence', 'Bradley Cooper');
+Index: week-7-sql/movies/6.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/movies/6.sql b/week-7-sql/movies/6.sql
+new file mode 100644
+--- /dev/null	(date 1782752093361)
++++ b/week-7-sql/movies/6.sql	(date 1782752093361)
+@@ -0,0 +1,4 @@
++-- 6. Average rating of movies in 2012
++
++SELECT avg(rating) FROM movies, ratings WHERE
++movies.id = ratings.movie_id AND movies.year = '2012';
+Index: week-7-sql/movies/1.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/movies/1.sql b/week-7-sql/movies/1.sql
+new file mode 100644
+--- /dev/null	(date 1782752093270)
++++ b/week-7-sql/movies/1.sql	(date 1782752093270)
+@@ -0,0 +1,3 @@
++-- 1. Titles of all movies from 2008
++
++SELECT title FROM movies WHERE year = '2008';
+Index: week-7-sql/fiftyville/answers.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/fiftyville/answers.txt b/week-7-sql/fiftyville/answers.txt
+new file mode 100644
+--- /dev/null	(date 1782752116353)
++++ b/week-7-sql/fiftyville/answers.txt	(date 1782752116353)
+@@ -0,0 +1,3 @@
++The THIEF is: Bruce
++The city the thief ESCAPED TO: New York City
++The ACCOMPLICE is: Robin
+Index: week-7-sql/fiftyville/log.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/week-7-sql/fiftyville/log.sql b/week-7-sql/fiftyville/log.sql
+new file mode 100644
+--- /dev/null	(date 1782752116372)
++++ b/week-7-sql/fiftyville/log.sql	(date 1782752116372)
+@@ -0,0 +1,201 @@
++-- Keep a log of any SQL queries you execute as you solve the mystery.
++
++-- We know that the theft took place on July 28 2025 at Humphrey Street
++SELECT * FROM crime_scene_reports WHERE year = '2025' AND month = '07' AND day = '28' AND street = 'Humphrey Street';
++SELECT description FROM crime_scene_reports WHERE year = '2025' AND month = '07' AND day = '28' AND street = 'Humphrey Street';
++-- Found:
++-- ----------------------------------------------------------------+
++-- |                                                                                                       description                                                                                                        |
++-- +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-- | Theft of the CS50 duck took place at 10:15am at the Humphrey Street bakery. Interviews were conducted today with three witnesses who were present at the time – each of their interview transcripts mentions the bakery. |
++-- | Littering took place at 16:36. No known witnesses.                                                                                                                                                                       |
++-- +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++
++
++-- We now know that we have 3 witnesses and their transcipts are available in interviews table.
++SELECT * FROM interviews WHERE year = '2025' and month = '7' and day = '28' and (transcript like '%thief%' or transcript like '%theft%');
++SELECT name, transcript FROM interviews WHERE year = '2025' and month = '7' and day = '28' and (transcript like '%thief%' or transcript like '%theft%');
++-- Found:
++-- +---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-- |  name   |                                                                                                                                                     transcript                                                                                                                                                      |
++-- +---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-- | Ruth    | Sometime within ten minutes of the theft, I saw the thief get into a car in the bakery parking lot and drive away. If you have security footage from the bakery parking lot, you might want to look for cars that left the parking lot in that time frame.                                                          |
++-- | Eugene  | I don't know the thief's name, but it was someone I recognized. Earlier this morning, before I arrived at Emma's bakery, I was walking by the ATM on Leggett Street and saw the thief there withdrawing some money.                                                                                                 |
++-- | Raymond | As the thief was leaving the bakery, they called someone who talked to them for less than a minute. In the call, I heard the thief say that they were planning to take the earliest flight out of Fiftyville tomorrow. The thief then asked the person on the other end of the phone to purchase the flight ticket. |
++-- +---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++
++
++-- As per the leads from Witness 1, Ruth
++SELECT * FROM bakery_security_logs WHERE year = '2025' and month = '7' and day = '28' and hour = '10' and minute between '15' and '25';
++-- Found:
++-- There are 8 vehicles exited from the bakery parking lot.
++
++-- Recognized license plates:
++SELECT license_plate FROM bakery_security_logs WHERE year = '2025' and month = '7' and day = '28' and hour = '10' and minute between '15' and '25';
++-- +---------------+
++-- | license_plate |
++-- +---------------+
++-- | 5P2BI95       |
++-- | 94KL13X       |
++-- | 6P58WS2       |
++-- | 4328GD8       |
++-- | G412CB7       |
++-- | L93JTIZ       |
++-- | 322W7JE       |
++-- | 0NTHK55       |
++-- +---------------+
++
++
++-- Using above query as a sub query in the people table
++SELECT id, name, phone_number, passport_number, license_plate FROM people WHERE license_plate IN (SELECT license_plate FROM bakery_security_logs WHERE year = '2025' and month = '7' and day = '28' and hour = '10' and minute between '15' and '25');
++-- +--------+---------+----------------+-----------------+---------------+
++-- |   id   |  name   |  phone_number  | passport_number | license_plate |
++-- +--------+---------+----------------+-----------------+---------------+
++-- | 221103 | Vanessa | (725) 555-4692 | 2963008352      | 5P2BI95       |
++-- | 243696 | Barry   | (301) 555-4174 | 7526138472      | 6P58WS2       |
++-- | 396669 | Iman    | (829) 555-5269 | 7049073643      | L93JTIZ       |
++-- | 398010 | Sofia   | (130) 555-0289 | 1695452385      | G412CB7       |
++-- | 467400 | Luca    | (389) 555-5198 | 8496433585      | 4328GD8       |
++-- | 514354 | Diana   | (770) 555-1861 | 3592750733      | 322W7JE       |
++-- | 560886 | Kelsey  | (499) 555-9472 | 8294398571      | 0NTHK55       |
++-- | 686048 | Bruce   | (367) 555-5533 | 5773159633      | 94KL13X       |
++-- +--------+---------+----------------+-----------------+---------------+
++
++
++-- As per witness 2
++SELECT * FROM atm_transactions WHERE year = '2025' AND month = '7' AND day = '28' AND atm_location = 'Leggett Street' and transaction_type = 'withdraw';
++-- Found:
++-- There are 8 withdrawals:
++SELECT account_number, amount FROM atm_transactions WHERE year = '2025' AND month = '7' AND day = '28' AND atm_location = 'Leggett Street' and transaction_type = 'withdraw';
++-- +----------------+--------+
++-- | account_number | amount |
++-- +----------------+--------+
++-- | 28500762       | 48     |
++-- | 28296815       | 20     |
++-- | 76054385       | 60     |
++-- | 49610011       | 50     |
++-- | 16153065       | 80     |
++-- | 25506511       | 20     |
++-- | 81061156       | 30     |
++-- | 26013199       | 35     |
++-- +----------------+--------+
++
++
++-- Using the account numbers, searching in bank_accounts
++SELECT person_id, name FROM bank_accounts WHERE account_number IN (SELECT account_number FROM atm_transactions WHERE year = '2025' AND month = '7' AND day = '28' AND atm_location = 'Leggett Street' and transaction_type = 'withdraw');
++-- +-----------+
++-- | person_id |
++-- +-----------+
++-- | 686048    |
++-- | 514354    |
++-- | 458378    |
++-- | 395717    |
++-- | 396669    |
++-- | 467400    |
++-- | 449774    |
++-- | 438727    |
++-- +-----------+
++
++
++-- Let's find the matching people ids from both witness 1 analysis and witness 2 analysis
++SELECT people.id, people.name, people.passport_number, people.phone_number FROM people JOIN
++(SELECT person_id FROM bank_accounts WHERE account_number IN (
++    SELECT account_number FROM atm_transactions WHERE year = '2025' AND month = '7' AND day = '28'
++    AND atm_location = 'Leggett Street' and transaction_type = 'withdraw')) Witness1
++ON people.id = Witness1.person_id
++JOIN
++(SELECT id FROM people WHERE license_plate IN (
++    SELECT license_plate FROM bakery_security_logs WHERE year = '2025' and month = '7' and day = '28' and hour = '10'
++    and minute between '15' and '25')) Witness2
++ON people.id = Witness2.id;
++-- +--------+-------+-----------------+----------------+
++-- |   id   | name  | passport_number |  phone_number  |
++-- +--------+-------+-----------------+----------------+
++-- | 686048 | Bruce | 5773159633      | (367) 555-5533 |
++-- | 514354 | Diana | 3592750733      | (770) 555-1861 |
++-- | 396669 | Iman  | 7049073643      | (829) 555-5269 |
++-- | 467400 | Luca  | 8496433585      | (389) 555-5198 |
++-- +--------+-------+-----------------+----------------+
++
++
++-- Finding the caller according to 3rd witness and using the information we already found from witness 1 and witness 2
++SELECT p1.name as caller_name, caller as caller_phone_number,
++p2.name as receiver_name, receiver as receiver_phone_number,
++duration FROM phone_calls
++JOIN people p1 ON phone_calls.caller = p1.phone_number
++JOIN people p2 ON phone_calls.receiver = p2.phone_number
++WHERE caller IN
++(SELECT people.phone_number FROM people JOIN
++    (SELECT person_id FROM bank_accounts WHERE account_number IN (
++        SELECT account_number FROM atm_transactions WHERE year = '2025' AND month = '7' AND day = '28'
++        AND atm_location = 'Leggett Street' and transaction_type = 'withdraw')) Witness1
++    ON people.id = Witness1.person_id
++    JOIN
++    (SELECT id FROM people WHERE license_plate IN (
++        SELECT license_plate FROM bakery_security_logs WHERE year = '2025' and month = '7' and day = '28' and hour = '10'
++        and minute between '15' and '25')) Witness2
++    ON people.id = Witness2.id) AND duration < 60;
++-- +-------------+---------------------+---------------+-----------------------+----------+
++-- | caller_name | caller_phone_number | receiver_name | receiver_phone_number | duration |
++-- +-------------+---------------------+---------------+-----------------------+----------+
++-- | Bruce       | (367) 555-5533      | Robin         | (375) 555-8161        | 45       |
++-- | Diana       | (770) 555-1861      | Philip        | (725) 555-3243        | 49       |
++-- | Bruce       | (367) 555-5533      | Charlotte     | (455) 555-5315        | 31       |
++-- +-------------+---------------------+---------------+-----------------------+----------+
++
++
++-- Finding passport numbers using the same query but selecting passport_number
++SELECT people.name, people.passport_number, people.phone_number FROM people WHERE phone_number IN (
++    SELECT caller FROM phone_calls WHERE caller IN
++    (SELECT people.phone_number FROM people JOIN
++        (SELECT person_id FROM bank_accounts WHERE account_number IN (
++            SELECT account_number FROM atm_transactions WHERE year = '2025' AND month = '7' AND day = '28'
++            AND atm_location = 'Leggett Street' and transaction_type = 'withdraw')) Witness1
++        ON people.id = Witness1.person_id
++        JOIN
++        (SELECT id FROM people WHERE license_plate IN (
++            SELECT license_plate FROM bakery_security_logs WHERE year = '2025' and month = '7' and day = '28' and hour = '10'
++            and minute between '15' and '25')) Witness2
++        ON people.id = Witness2.id) AND duration < 60);
++-- +-------+-----------------+----------------+
++-- | name  | passport_number |  phone_number  |
++-- +-------+-----------------+----------------+
++-- | Diana | 3592750733      | (770) 555-1861 |
++-- | Bruce | 5773159633      | (367) 555-5533 |
++-- +-------+-----------------+----------------+
++
++
++-- Using the passport numbers, we can find the flight, seat no., destination
++SELECT a.abbreviation, a.full_name, a.city,
++        p.seat,
++        f.year, f.month, f.day, f.hour, f.minute,
++        pe.name, pe.passport_number, pe.phone_number
++        FROM flights AS f JOIN airports AS a
++        ON f.destination_airport_id = a.id
++        JOIN passengers AS p ON p.flight_id = f.id
++        JOIN people AS pe ON pe.passport_number = p.passport_number
++        WHERE f.year = '2025' AND f.month = '7' AND f.day = '29'
++        AND pe.passport_number IN (
++            SELECT people.passport_number FROM people WHERE phone_number IN (
++                SELECT caller FROM phone_calls WHERE caller IN
++                (SELECT people.phone_number FROM people JOIN
++                    (SELECT person_id FROM bank_accounts WHERE account_number IN (
++                        SELECT account_number FROM atm_transactions WHERE year = '2025' AND month = '7' AND day = '28'
++                        AND atm_location = 'Leggett Street' and transaction_type = 'withdraw')) Witness1
++                    ON people.id = Witness1.person_id
++                    JOIN
++                    (SELECT id FROM people WHERE license_plate IN (
++                        SELECT license_plate FROM bakery_security_logs WHERE year = '2025' and month = '7' and day = '28' and hour = '10'
++                        and minute between '15' and '25')) Witness2
++                    ON people.id = Witness2.id) AND duration < 60)
++        );
++
++-- +--------------+-----------------------------+---------------+------+------+-------+-----+------+--------+-------+-----------------+----------------+
++-- | abbreviation |          full_name          |     city      | seat | year | month | day | hour | minute | name  | passport_number |  phone_number  |
++-- +--------------+-----------------------------+---------------+------+------+-------+-----+------+--------+-------+-----------------+----------------+
++-- | BOS          | Logan International Airport | Boston        | 4C   | 2025 | 7     | 29  | 16   | 0      | Diana | 3592750733      | (770) 555-1861 |
++-- | LGA          | LaGuardia Airport           | New York City | 4A   | 2025 | 7     | 29  | 8    | 20     | Bruce | 5773159633      | (367) 555-5533 |
++-- +--------------+-----------------------------+---------------+------+------+-------+-----+------+--------+-------+-----------------+----------------+
++
++-- Thief is Bruce who catched the earliest flight at 8 20 AM
++

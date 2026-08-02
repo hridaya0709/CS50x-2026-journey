@@ -27,6 +27,7 @@ This repository contains my solutions and projects from Harvard's CS50x course.
 * [Week 5](https://cs50.harvard.edu/x/psets/5/)  - Inheritance (C), Speller (C)
 * [Week 6](https://cs50.harvard.edu/x/psets/6/)  - Hello (Python), Mario-more (Python), Cash (Python), Credit (Python), Readability (Python), DNA (Python)
 * [Week 7](https://cs50.harvard.edu/x/psets/7/)  - Songs (SQL), Movies (SQL), Fiftyville (SQL)
+* [Week 8](https://cs50.harvard.edu/x/psets/8/)  - Trivia (HTML, CSS, JS), Homepage (HTML, CSS, JS, Bootstrap) 
 
 ---
 

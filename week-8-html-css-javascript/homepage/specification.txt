@@ -1,0 +1,30 @@
+The HTML tags I have used in my code:
+<meta>
+<link>
+<script>
+<section>
+<a>
+<div>
+<ul>
+<li>
+<img>
+<h2>
+<h4>
+<button>
+<form>
+<h5>
+<span>
+<input>
+<label>
+<p>
+
+CSS properties I used, there are more than 5:
+margin
+padding
+box-sizing
+font-family
+color
+etc..
+
+In my code, I used Javascript to handle the events such as clicking the button in the homepage to navigate to the test page and retake the test button, I also used JavaScript to calculate the scores of the selected options in the form and using these values to determine the personality type.
+I have used BootStrap for styling my buttons.
